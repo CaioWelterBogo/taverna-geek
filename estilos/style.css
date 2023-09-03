@@ -20,7 +20,7 @@ header input{
     padding: 14px;
     font-size: 17px;
     border: 1px solid black;
-    width: 600px;
+    width: 50vw;
 }
 img#compra{
     position: absolute;
@@ -31,7 +31,7 @@ img#compra{
     transform: translate(-50%,-50%);
 }
 img#logo{
-    margin-left: 5%;
+    margin-left: 3%;
 }
 body{
     background-color: #a8a8a8;
