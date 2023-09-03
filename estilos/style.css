@@ -16,11 +16,11 @@ header > form > div{
 }
 header input{
     height: 50px;
-    width: 600px;
     border-radius: 22px;
     padding: 14px;
     font-size: 17px;
     border: 1px solid black;
+    width: 600px;
 }
 img#compra{
     position: absolute;
