@@ -5,20 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mobile.css" media="screen and (max-width: 700px)">
-    
+    <link rel="stylesheet" href="estilos/nav-bar.css">
     <title>Taverna Geek</title>
 </head>
 <body>
     <header>
         <img id="logo" src="imagens/logo2.png" alt="Logo da empresa">
         <img id="compra" src="imagens/carrinho1.png" alt="Carrinho">
-        <img id="menu" src="imagens/menu2.png" alt="mais opções">
-        <img id="menu_desktop" src="imagens/menu_desktop.png" alt="Mais opções">
+        <nav>
+            <!--<img id="menu" src="imagens/menu2.png" alt="mais opções">-->
+            <a class="menu_lateral" href="/"></a>
+                <div class="menu">
+                    <div class="line1"></div>
+                    <div class="line1"></div>
+                    <div class="line1"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Bonecos</a></li>
+                    <li><a href="#">RPGs</a></li>
+                    <li><a href="#">Mangas</a></li>
+                    <li><a href="#">Acessorios</a></li>
+                </ul>
+        </nav>
+        <!-- <img id="menu_desktop" src="imagens/menu_desktop.png" alt="Mais opções">* -->
         <form action="pesquisa.php" method="get">
             <div>
                 <input type="search" name="pesquisa" id="ipesquisa" placeholder="&#x1F50D; Buscar Produtos...">
             </div>
         </form>
+        <script src="javascript/script.js"></script>
     </header>
     <body>
         <div> 

@@ -46,6 +46,9 @@ img#menu{
 }
 body{
     background-color: #a8a8a8;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 body > div{
     width: 90vw;
