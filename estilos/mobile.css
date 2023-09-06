@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-:root{
-    --cond: block;
-}
+
 header img#logo{
     width: 78px;
     margin-left: 3%;
@@ -27,16 +25,18 @@ header > form > div > input{
     transform: translate(-50%,-50%);
     width: 50vw;
 }
-img#menu{
-    display: block;
+
+.menu {
+    display: none;
+    cursor: pointer;
     position: absolute;
 
-    left: 82%;
+    right: 7.3%;
     top: 50%;
 
-    transform: translate(-50%,-50%);
-    width: 35px;
+    transform: translate(-50%, -50%);
 }
-img#menu_desktop{
-    display: none;
+.menu div{
+    width: 32px;
+    height: 2px;
 }

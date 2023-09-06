@@ -33,17 +33,7 @@ img#compra{
 img#logo{
     margin-left: 11%;
 }
-img#menu_desktop{
-    position: absolute;
 
-    left: 5%;
-    top: 50%;
-
-    transform: translate(-50%,-50%);
-}
-img#menu{
-    display: none;
-}
 body{
     background-color: #a8a8a8;
     width: 100%;
