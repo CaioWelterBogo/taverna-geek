@@ -45,7 +45,7 @@ class MobileNavbar {
 function menuClicado(){
   lista = document.querySelector(".nav-list2")
   listateste = document.querySelector(".nav-list")
-  if(listateste.style.fontWeight == "ligther"){
+  if(window.matchMedia("(max-width: 700px)").matches){
     if(lista.style.display == "block"){
       lista.style.display = "none"
     }else{
