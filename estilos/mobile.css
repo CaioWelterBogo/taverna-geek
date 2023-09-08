@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-
 header img#logo{
     width: 78px;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 header img#compra{
     width: 40px;
@@ -27,11 +26,11 @@ header > form > div > input{
 }
 
 .menu {
-    display: none;
+    display: block;
     cursor: pointer;
     position: absolute;
 
-    right: 7.3%;
+    right: 10%;
     top: 50%;
 
     transform: translate(-50%, -50%);
@@ -39,4 +38,5 @@ header > form > div > input{
 .menu div{
     width: 32px;
     height: 2px;
+    background-color: black;
 }

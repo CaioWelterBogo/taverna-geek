@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-header{
-    height: 21vh;
-}
 
 a {
     color: #fff;
@@ -33,7 +30,7 @@ nav {
     display: flex;
     padding: 25px;
     position: absolute;
-    top: 21vh;
+    top: 20vh;
     left: 0;
     width: 15vw;
     height: 80vh;
@@ -58,11 +55,11 @@ nav {
     box-shadow: 3px 3px 4px #210d25;
 }
 .menu {
-    display: none;
+    display: block;
     cursor: pointer;
     position: absolute;
 
-    left: 5%;
+    right: 7%;
     top: 50%;
 
     transform: translate(-50%, -50%);
@@ -70,10 +67,6 @@ nav {
 .menu div{
     width: 38px;
     height: 4px;
-}
-
-
-.menu div {
     background: #000000;
     margin: 8px;
     transition: 0.3s;
@@ -93,12 +86,6 @@ body {
 
 .nav-list.active {
     transform: translateX(0);
-}
-
-img#logo{
-    margin-left: 11%;
-    height: 100%;
-    scale: (1.1);
 }
 
 @keyframes navLinkFade {
