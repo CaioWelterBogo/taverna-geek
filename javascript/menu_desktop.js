@@ -44,8 +44,12 @@ class MobileNavbar {
 
 function menuClicado(){
   lista = document.querySelector(".nav-list2")
+  if(lista.style.padding != 25){
+
+  }else{
   if(lista.style.display == "block"){
     lista.style.display = "none"
   }else{
     lista.style.display = "block"}
+  }
 }
