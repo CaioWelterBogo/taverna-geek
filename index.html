@@ -19,7 +19,7 @@
         <img id="compra" src="imagens/carrinho1.png" alt="Carrinho">
         <nav>
             <a class="menu_lateral" href="/" id="inutil"></a>
-                <div class="menu">
+                <div class="menu" onclick="menuClicado()">
                     <div class="line1"></div>
                     <div class="line1"></div>
                     <div class="line1"></div>
@@ -37,9 +37,16 @@
                 <input type="search" name="pesquisa" id="ipesquisa" placeholder="&#x1F50D; Buscar Produtos...">
             </div>
         </form>
-        <script src="javascript/menu_desktop.js"></script>
+        <script src="javascript/menu_desktop.js" media="screen and (min-width:700px)"></script>
     </header>
     <body>
+        <ul class="nav-list2">
+            <li><a href="#">Meu Perfil</a></li>
+            <li><a href="#">Bonecos</a></li>
+            <li><a href="#">RPGs</a></li>
+            <li><a href="#">Mangás/HQs</a></li>
+            <li><a href="#">Acessórios</a></li>
+        </ul>
         <div> 
         </div>
     </body>

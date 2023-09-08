@@ -41,3 +41,11 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+function menuClicado(){
+  lista = document.querySelector(".nav-list2")
+  if(lista.style.display == "block"){
+    lista.style.display = "none"
+  }else{
+    lista.style.display = "block"}
+}
