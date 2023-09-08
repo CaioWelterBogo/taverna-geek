@@ -25,6 +25,9 @@ nav {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+.nav-list{
+    font-weight: lighter;
+}
 .nav-list2 , .nav-list{
     display: none;
 }

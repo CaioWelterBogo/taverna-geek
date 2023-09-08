@@ -45,11 +45,10 @@ class MobileNavbar {
 function menuClicado(){
   lista = document.querySelector(".nav-list2")
   listateste = document.querySelector(".nav-list")
-  if(listateste.style.display == "block"){
-  }else{
-  if(lista.style.display == "block"){
-    lista.style.display = "none"
-  }else{
-    lista.style.display = "block"}
+  if(listateste.style.fontWeight == "ligther"){
+    if(lista.style.display == "block"){
+      lista.style.display = "none"
+    }else{
+      lista.style.display = "block"}
+    }
   }
-}
