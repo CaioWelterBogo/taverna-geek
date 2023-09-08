@@ -51,10 +51,14 @@ nav {
     margin: auto;
 }
 .menu div{
-    width: 38px;
-    height: 4px;
+    width: 32px;
+    height: 3px;
     background: #000000;
     margin: 8px;
+}
+.menu{
+    position: absolute;
+    right: 6%;
 }
 
 
