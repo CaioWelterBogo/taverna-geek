@@ -59,10 +59,18 @@ nav {
     background: #000000;
     margin: 8px;
 }
-.menu{
+
+.menu {
+    display: block;
+    cursor: pointer;
     position: absolute;
-    right: 8.7%;
+
+    right: 6%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
+
 
 
 
