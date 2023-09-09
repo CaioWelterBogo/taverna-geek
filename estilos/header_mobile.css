@@ -1,0 +1,39 @@
+/* separar certo */
+
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: purple;
+    position: relative;
+}
+header > form > div > input{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 45px;
+    border-radius: 22px;
+    padding: 14px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+header img#logo{
+    width: 78px;
+    margin-left: 5%;
+}
+header img#compra{
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    left: 93%;
+    transform: translate(-50%,-50%);
+}
+input:focus{
+    width: 74vw;
+    left:62vw; /* ajustar em casa mas está relativamente bom */
+}
