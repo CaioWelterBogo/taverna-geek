@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: "Bakbak One";
+    src: url(fonte/BakbakOne-Regular.ttf);
+}
+body{
+    background-color:   rgb(68, 68, 68);
+    font-family: "Bakbak One";
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+legend{
+    padding: 10px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 30px;
+    width: 140px;
+}   
+main{
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputUser{
+    background: #ffffff;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: -5px 10px #2a1247;
+    border-style:none;
+
+}
+
+.cadastrar{
+    height: 35px;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 12px;
+    border-style:none;
+    background-color: rgb(182, 175, 175);
+    color: #000000;
+    margin-top: 20px;
+    font-family: 'Bakbak One', cursive;
+    
+}
+#iestado{
+    width: 16%;
+}
+#icidade{
+    width: 84%;
+}
+label{
+    color: #ffffff;
+}
+
+

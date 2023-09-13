@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <main>
+        <form>
+            <legend><strong>Cadastro</strong></legend>
+            <div class="inputBox">
+                <label for="iname" class="labelinput">Nome de usuário</label >
+                <input type="text" name="nome" id="inome" class="inputUser" required>
+            </div>
+            <div class="inputBox">
+                <label for="iemail" class="labelinput">E-mail</label >
+                <input type="text" name="email" id="iemail" class="inputUser" required>
+            </div>
+            <div class="inputBox">
+                <label for="itelefone" class="labelinput">Telefone</label >
+                <input type="tel" name="telefone" id="itelefone" class="inputUser">  
+            </div>
+            <div id="cidade-estado">
+                <label for="iestado" class="labelinput">Estado</label >
+                <label for="icidade" class="labelinput">Cidade</label><br>
+                <input type="text" name="estado" id="iestado" class="inputUser" maxlength="2">
+                <input type="text" name="cidade" id="icidade" class="inputUser">
+            </div>
+            <div>
+                <label for="ibairro" class="labelinput">Bairro</label >
+                <input type="text" name="bairro" id="ibairro" class="inputUser">
+            </div>
+            <div>
+                <label for="irua" class="labelinput">Rua</label >
+                <input type="text" name="rua" id="irua" class="inputUser">
+            </div>
+            <div>
+                <label for="inumero" class="labelinput">N°</label >
+                <input type="text" name="numero" id="inumero" class="inputUser" maxlength="5">
+            </div>
+            <div>
+                <label for="icomplemento" class="labelinput">Complemento</label >
+                <input type="text" name="complemento" id="icomplemento" class="inputUser">
+            </div>
+            <div class="inputBox">
+                <label for="isenha" class="labelinput">Senha</label >
+                <input type="password" name="senha" id="isenha" class="inputUser" requerid>
+            </div>
+
+            <input type="submit"  value="Cadastrar" id="cadastrar" class="cadastrar">
+        </form>
+    </main>
+</body>
+</html>
