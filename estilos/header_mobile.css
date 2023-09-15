@@ -6,7 +6,7 @@
     margin: 0;
 }
 header{
-    background-color: purple;
+    background-color: #800080;
     position: relative;
 }
 header > form > div > input{

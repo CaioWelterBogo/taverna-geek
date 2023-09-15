@@ -115,3 +115,6 @@ img#logo{
         transform: translateX(0);
     }
 }
+.selecionado{
+    background-color: #2c1231;
+}
