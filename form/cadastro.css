@@ -7,26 +7,31 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Bakbak One";
 }
 body{
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: rgb(122, 110, 110);
+    background-color: rgba(133, 39, 255, 0.795);
 }
 label{
     display: block;
 }
+body{
+    position: relative;
+}
 section{
+    font-family: "Bakbak One";
     position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%,-50%);
     background-color: rgb(170, 71, 209);
     padding: 13px;
     border-radius: 10px;
+}
+legend{
+    font-size: 1.2em;
 }
 input{
     margin: auto;
@@ -53,7 +58,16 @@ div{
 .label_cidade_estado{
     display: inline;
 }
-label[for="iestado"]{
+label[for="icidade"]{
     position: absolute;
     left:29%;
+}
+#cadastrar{
+    margin-top: 0.6em;
+    width: 20vw;
+    height: 6vh;
+    cursor: pointer;
+}
+#botao{
+    text-align: center;
 }
