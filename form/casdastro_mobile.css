@@ -9,7 +9,17 @@
     margin: 0;
 }
 header{
-    display: none;
+    position: relative;
+}
+header > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+header > img, header > h1{
+    display: inline;
 }
 body{
     height: 100vh;
@@ -24,13 +34,7 @@ body{
     position: relative;
 }
 section#descricao{
-    position: absolute;
-    top: 43%;
-    transform: translate(0,-50%);
-    display: inline-block;
-    margin-left: 5.7vw;
-    width: 42vw;
-    background-color: rgba(245, 245, 245, 0);
+    display: none;
 }
 #descricao{
     text-align: center;
@@ -46,8 +50,8 @@ section#descricao{
 section#form{
     font-family: "Bakbak One";
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 80%;
+    left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgb(170, 71, 209);
     padding: 13px;
@@ -61,7 +65,7 @@ input{
     padding: 7px 0px;
     border-radius: 14px;
     border-style: none;
-    width: 30vw;
+    width: 40vw;
 
     box-shadow: -4px 6px #2a1247a6;
 }
@@ -72,18 +76,18 @@ div{
     display: inline;
 }
 #iestado{
-    width: 7vw;
+    width: 11vw;
     margin-right: 1vw;
 }
 #icidade{
-    width: 22vw;
+    width: 28vw;
 }
 .label_cidade_estado{
     display: inline;
 }
 label[for="icidade"]{
     position: absolute;
-    left:29%;
+    left:34%;
 }
 #cadastrar{
     margin-top: 0.6em;
