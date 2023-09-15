@@ -50,7 +50,7 @@ section#descricao{
 section#form{
     font-family: "Bakbak One";
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgb(170, 71, 209);
@@ -65,7 +65,7 @@ input{
     padding: 7px 0px;
     border-radius: 14px;
     border-style: none;
-    width: 40vw;
+    width: 50vw;
 
     box-shadow: -4px 6px #2a1247a6;
 }
@@ -76,11 +76,11 @@ div{
     display: inline;
 }
 #iestado{
-    width: 11vw;
+    width: 14vw;
     margin-right: 1vw;
 }
 #icidade{
-    width: 28vw;
+    width: 35vw;
 }
 .label_cidade_estado{
     display: inline;
