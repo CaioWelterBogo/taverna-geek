@@ -48,7 +48,7 @@ nav {
     top: 21vh;
     left: 0;
     width: 15vw;
-    height: 100vh;
+    height: 99vh;
     background: #162d3c;
     flex-direction: column;
     align-items: center;
@@ -65,7 +65,7 @@ nav {
     padding: 15px;
     border-radius: 20px;
     display: block;
-    width: 15.1vw;
+    width: 13vw;
     box-shadow: 3px 3px 4px #0d1b23;
 }
 .selecionado{
@@ -116,5 +116,13 @@ img#logo{
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+@media screen and (min-width:700px) and (max-width: 900px) {
+    .nav-list{
+        width: 19vw;
+    }
+    .nav-list a{
+        width: 15.3vw;
     }
 }

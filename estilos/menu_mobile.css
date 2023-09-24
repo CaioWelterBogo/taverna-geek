@@ -67,16 +67,14 @@ nav {
     background: black;
     margin: 8px;
 }
-
 .menu {
     display: block;
     cursor: pointer;
     position: absolute;
-
-    left: 90%;
+    left: 83%;
     top: 50%;
 
-    transform: translate(-100%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
