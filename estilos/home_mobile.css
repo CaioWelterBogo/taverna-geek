@@ -1,25 +1,2 @@
-@charset "UTF-8";
 
-header img#logo{
-    width: 78px;
-    margin-left: 5%;
-}
-header img#compra{
-    width: 40px;
-    left: 93%;
-}
-header input{
-    width: 100%;
-    height: 45px;
-}
-input:focus{
-    width: 74vw;
-    left:62vw; /* ajustar em casa mas está relativamente bom */
-}
-header > form > div > input{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 50vw;
-}
+
