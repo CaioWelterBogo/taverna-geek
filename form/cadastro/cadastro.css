@@ -41,6 +41,7 @@ section#descricao{
 }
 #descricao > p{
     text-align: justify;
+    color: white ;
 }
 #descricao > h1{
     font-size: 2em;
