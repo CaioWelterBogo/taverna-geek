@@ -19,7 +19,7 @@
     margin: 0;
 }
 body{
-    background-color: var(--cor4);
+    background-color: var(--cor1);
 }
 header{
     display: none;
