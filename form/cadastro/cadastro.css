@@ -62,6 +62,7 @@ section#form{
 }
 legend{
     font-size: 1.2em;
+    text-align: center;
 }
 input{
     margin: auto;
