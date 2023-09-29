@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Produto</title>
+    <link rel="stylesheet" href="cadastroProduto.css">
 </head>
 <body>
     <main>
         <form action="" method="post">
             <legend>Cadastro de Produtos</legend>
+            <br>
+            <div>
+                <label for="iimage"></label>
+                <input type="file" name="image" id="iimage">
+            </div>
             <div class="campos">
                 <label for="inome">Nome do Produto</label>
                 <input type="text" name="Nome" id="inome">
             </div>
             <div class="campos">
-                <label for="idescricao">Descrição</label><br>
+                <label for="idescricao">Descrição</label>
                 <textarea name="descricao" id="idescricao" cols="40" rows="3"></textarea>
             </div>
             <div class="campos">

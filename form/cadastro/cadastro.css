@@ -52,13 +52,15 @@ section#descricao{
 section#form{
     font-family: "Bakbak One";
     position: absolute;
-    top: 2%;
+    top: 7%;
     left: 75%;
     transform: translate(-50%,0);
     background-color: var(--cor3);
     padding: 13px;
     border-radius: 10px;
     color: #a2c2eb;
+
+    box-shadow: 5px 5px 6px #301734;
 }
 legend{
     font-size: 1.2em;

@@ -1,11 +1,61 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Bakbak One";
+    src: url(../fonte/BakbakOne-Regular.ttf);
+}
+:root{
+    --cor1: #45214A;
+    --cor2: #323050;
+    --cor3: #21445B;
+    --cor4: #1A6566;
+    --cor5: #5D8A66;
+
+    --texto: #A2C2EB;
+}
 *{
     padding: 0;
     margin: 0;
 }
-
 body{
     width: 100vw;
     height: 100vh;
+    background-color: var(--cor1);
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    background-color: var(--cor3);
+    height: 500px;
+    width: 50vw;
+    border-radius: 15px;
+}
+main > form{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+label{
+    display: block;
+}
+input[type="file"]{
+    background-color: white;
+    padding: 7px;
+    width: 50%;
+}
+input, textarea{
+    margin: auto;
+    padding: 7px 0px;
+    border-radius: 14px;
+    border-style: none;
+    width: 40vw;
+    margin-bottom: 0.5em;
+
+    box-shadow: -4px 5px 1px var(--cor2);
 }

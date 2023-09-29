@@ -75,6 +75,10 @@ div#botao{
     margin-top: 18px;
     text-align: center;
 }
+input[type="submit"]{
+    background-color: #7aa5dcc3;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 1023px) {
     img#peq{
@@ -135,19 +139,19 @@ div#botao{
     }
     div#imagem{
         height: 170px;
-        width: 50vw;
+        width: 55vw;
     }
     section#login{
         height: 400px;
-        width: 50vw;
+        width: 55vw;
     }
     form > div > input{
-        width: 40vw;
+        width: 45vw;
         padding: 5px 5px 5px 10px;
         font-size: 17px;
     }
     form > div#botao > input{
-        width: 26vw;
+        width: 29vw;
         height: 35px;
     }
 }
