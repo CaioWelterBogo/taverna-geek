@@ -32,8 +32,8 @@ header > form > div > input{
 }
 
 header img#logo{
-    width: 78px;
-    margin-left: 5%;
+    width: 100px;
+    margin-left: 3%;
 }
 header img#compra{
     position: absolute;

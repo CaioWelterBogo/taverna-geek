@@ -97,7 +97,6 @@ label[for="icidade"]{
 }
 #cadastrar{
     margin-top: 0.6em;
-    width: 20vw;
     padding: 13px;
     cursor: pointer;
 }
@@ -106,4 +105,5 @@ label[for="icidade"]{
 }
 input[type="submit"]{
     background-color: #7aa5dcc3;
+    width: 70%;
 }
