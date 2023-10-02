@@ -31,7 +31,7 @@ div#titulo{
     font-weight: bold;
     padding: 2px;
     color: var(--letra);
-    margin-left: 8px;
+    margin-left: 15px;
 }
 ul.lista_produtos{
     margin-left: 10px;
